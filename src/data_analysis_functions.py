@@ -21,7 +21,7 @@ def load_csv(filename):
 
 def analyze_data(students):
     """Return dictionary with statistics: totals, averages, subject counts, distribution."""
-    grades = [float(student["Grade"]) for student in students]
+    grades = [float(student["grade"]) for student in students]
 
     total_students = len(students)
     average_grade = sum(grades) / total_students if total_students > 0 else 0
@@ -31,7 +31,7 @@ def analyze_data(students):
     # Count students per subject
     subject_counts = {}
     for student in students:
-        subject = student["Subject"]
+        subject = student["subject"]
         subject_counts[subject] = subject_counts.get(subject, 0) + 1
 
     # Grade distribution

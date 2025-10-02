@@ -1,3 +1,19 @@
+Analysis Report
+====================
 Total students: 8
 Average grade: 85.9
-Math students: 3
+Highest grade: 95.0
+Lowest grade: 76.0
+
+Subject Counts:
+  Math: 3
+  Science: 3
+  English: 1
+  History: 1
+
+Grade Distribution:
+  A: 3 (37.5%)
+  B: 3 (37.5%)
+  C: 2 (25.0%)
+  D: 0 (0.0%)
+  F: 0 (0.0%)
