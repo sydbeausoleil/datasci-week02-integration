@@ -5,7 +5,7 @@
 
 # TODO: Create .gitignore and include common Python ignores
 
-# TODO: Create students.csv with data (name, age, grade, subject)
+# TODO: Createstudents.csv with data (name, age, grade, subject)
 
 # TODO: Create Python template files with TODO comments
 echo "Setting up project structure..."

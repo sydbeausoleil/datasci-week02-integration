@@ -10,14 +10,14 @@ def load_students(filename="data/students.csv"):
         lines = f.readlines()[1:]  # skip header
         for line in lines:
             parts = line.strip().split(",")
-            if len(parts) < 3:
+            if len(parts) < 4:
                 continue
             try:
                 grade = int(parts[2].strip())
             except ValueError:
                 continue
             name = parts[0].strip()
-            subject = parts[1].strip()
+            subject = parts[3].strip()
             students.append((name, subject, grade))
     return students
 
